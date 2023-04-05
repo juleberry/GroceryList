@@ -9,6 +9,7 @@ btn.addEventListener("click", () => {
   const listItem = document.createElement('li');
   const inputText = inputBox.value;
   const listArea = document.createElement('div')
+  listArea.id = "listItem"
   listArea.textContent = inputText
   const deleteBtn = document.createElement('button')
   deleteBtn.textContent = "Delete";
