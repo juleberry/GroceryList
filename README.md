@@ -1,4 +1,4 @@
-# GroceryList
+# Grocery List
 Utilities make life easier. I like to use a grocery list to avoid buying unnecessary items so I'm working on making a custom one.
 
 #### Current Features
