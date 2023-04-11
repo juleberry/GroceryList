@@ -1,7 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+* {
+  font-family: 'Dancing Script', Tahoma, Verdana;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+body {
+  text-align: center;
+  background-color: gray;
+}
+
+#addItemBtn:hover {
+color: rgb(83, 250, 83);
+background-color: rgb(3, 92, 7);
+}
+
+.deleteBtns:hover {
+color: red;
+background-color: rgb(96, 2, 2);
+}
+
+li::marker {
+  color: yellow;
+}
+
 .content {
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: stretch;
+  margin: 2%;
   padding: 10%;
+  height: 70vh;
+  width: 70vw;
 }
 
 .completed {
@@ -10,4 +44,60 @@
 
 .incomplete {
   text-decoration: none;
+}
+
+#addItemBox {
+  font-size: 1rem;
+  color: black;
+}
+
+#listArea {
+  display: flex;
+  flex-direction: row;
+}
+
+.listInputArea {
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: pink;
+  padding: 10px;
+  height: 30px;
+}
+
+#listItem, #strike {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  text-align: left;
+  color: white;
+}
+
+.eachItem {
+  margin: 1%;
+  height: auto;
+}
+
+#listItemContainer {
+  overflow: auto;
+  background-color: purple;
+  display: flex;
+  border-radius: 0 0 10px 10px;
+  
+}
+
+#listItems {
+  /* background-color: green; */
+  margin-right: 10px;
+  text-decoration-color: yellow;
+}
+
+#listItem {
+  display: flex;
+  /* background-color: aqua; */
+}
+
+.deleteBtns {
+  color: palevioletred;
 }
