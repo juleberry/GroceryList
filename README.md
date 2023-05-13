@@ -4,6 +4,7 @@ Utilities make life easier. I like to use a grocery list to avoid buying unneces
 #### Current Features
 * Confirm deletion of items before deleting
 * Does not allow blank items to be added
+* Can add items to list using "Enter" key
 
 #### Future Features
 * Data stored locally
